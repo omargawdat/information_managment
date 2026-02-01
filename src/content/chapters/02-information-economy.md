@@ -5,71 +5,13 @@ order: 1
 description: "Information logistics, eliciting information demand, stakeholders, personas, and the Balanced Scorecard"
 ---
 
-## Context in the Krcmar Model
+## Introduction
 
-This chapter covers the **Management of the Information Economy** — the demand side of the Krcmar model: what information do people need, and how do we supply it?
-
-<div class="not-prose my-6 flex justify-center">
-  <div class="max-w-2xl w-full flex flex-col items-center gap-0">
-    <!-- Governance block -->
-    <div class="w-full rounded-lg border-2 border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-800/30 p-4">
-      <div class="text-sm font-bold text-gray-500 dark:text-gray-400 text-center mb-3">Managing Information Management</div>
-      <div class="grid grid-cols-2 sm:grid-cols-3 gap-2">
-        <div class="px-3 py-1.5 rounded bg-gray-100 dark:bg-gray-700/40 border border-gray-200 dark:border-gray-600 text-xs font-medium text-gray-500 dark:text-gray-400 text-center">IT Strategy</div>
-        <div class="px-3 py-1.5 rounded bg-gray-100 dark:bg-gray-700/40 border border-gray-200 dark:border-gray-600 text-xs font-medium text-gray-500 dark:text-gray-400 text-center">IT Governance</div>
-        <div class="px-3 py-1.5 rounded bg-gray-100 dark:bg-gray-700/40 border border-gray-200 dark:border-gray-600 text-xs font-medium text-gray-500 dark:text-gray-400 text-center">IT Processes</div>
-        <div class="px-3 py-1.5 rounded bg-gray-100 dark:bg-gray-700/40 border border-gray-200 dark:border-gray-600 text-xs font-medium text-gray-500 dark:text-gray-400 text-center">IT HR</div>
-        <div class="px-3 py-1.5 rounded bg-gray-100 dark:bg-gray-700/40 border border-gray-200 dark:border-gray-600 text-xs font-medium text-gray-500 dark:text-gray-400 text-center">IT Controlling</div>
-        <div class="px-3 py-1.5 rounded bg-gray-100 dark:bg-gray-700/40 border border-gray-200 dark:border-gray-600 text-xs font-medium text-gray-500 dark:text-gray-400 text-center">IT Security</div>
-      </div>
-    </div>
-    <!-- Three connector lines -->
-    <div class="flex w-full max-w-md justify-around">
-      <div class="flex flex-col items-center">
-        <div class="w-0.5 h-6 bg-gray-300 dark:bg-gray-600"></div>
-        <svg class="w-3 h-2 text-gray-300 dark:text-gray-600" viewBox="0 0 12 8" fill="currentColor"><polygon points="6,8 0,0 12,0"/></svg>
-      </div>
-      <div class="flex flex-col items-center">
-        <div class="w-0.5 h-6 bg-gray-300 dark:bg-gray-600"></div>
-        <svg class="w-3 h-2 text-gray-300 dark:text-gray-600" viewBox="0 0 12 8" fill="currentColor"><polygon points="6,8 0,0 12,0"/></svg>
-      </div>
-      <div class="flex flex-col items-center">
-        <div class="w-0.5 h-6 bg-gray-300 dark:bg-gray-600"></div>
-        <svg class="w-3 h-2 text-gray-300 dark:text-gray-600" viewBox="0 0 12 8" fill="currentColor"><polygon points="6,8 0,0 12,0"/></svg>
-      </div>
-    </div>
-    <!-- Three managed areas -->
-    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 w-full">
-      <!-- Information Economy (highlighted) -->
-      <div class="rounded-lg bg-amber-100 dark:bg-amber-900/30 border-2 border-amber-500 dark:border-amber-400 p-3 ring-2 ring-amber-300 dark:ring-amber-600">
-        <div class="text-sm font-bold text-amber-900 dark:text-amber-200 text-center">Information Economy</div>
-        <div class="text-xs text-amber-700 dark:text-amber-400 text-center mt-1">Demand, Supply, Usage</div>
-      </div>
-      <!-- Information Systems (dimmed) -->
-      <div class="rounded-lg bg-gray-50 dark:bg-gray-800/20 border border-gray-200 dark:border-gray-700 p-3 opacity-50">
-        <div class="text-sm font-semibold text-gray-500 dark:text-gray-400 text-center">Information Systems</div>
-        <div class="text-xs text-gray-400 dark:text-gray-500 text-center mt-1">Data, Processes, Lifecycle</div>
-      </div>
-      <!-- ICT (dimmed) -->
-      <div class="rounded-lg bg-gray-50 dark:bg-gray-800/20 border border-gray-200 dark:border-gray-700 p-3 opacity-50">
-        <div class="text-sm font-semibold text-gray-500 dark:text-gray-400 text-center">ICT</div>
-        <div class="text-xs text-gray-400 dark:text-gray-500 text-center mt-1">Storage, Processing, Comms</div>
-      </div>
-    </div>
-  </div>
-</div>
+The **Information Economy** is the demand-side layer of the Krcmar model (see Chapter 1). Its core problem: organizations have plenty of data, but **decision-makers need information** — data that is relevant, timely, and contextualized. This chapter covers the three pillars of the Information Economy: **eliciting demand** (who needs what), **managing supply** (how we deliver it), and **organizing sources and resources** (where it comes from and how we structure it).
 
 ---
 
-## Part 1: Why Information Economy?
-
-There is plenty of data available — but **decision makers don't need data, they need information**. Decisions must be made faster and faster due to global competition.
-
-> **Key takeaway:** We need information systems to convert data to relevant information in real time. The Information Economy is about managing **demand** (who needs what information), **supply** (how we deliver it), and **usage** (how effectively it is consumed).
-
----
-
-## Part 2: Information Logistics
+## Information Logistics (Augustin, 1990)
 
 > **Definition:** The **logistical principle** (Augustin, 1990) states that we must supply:
 > - The **right information**
@@ -124,13 +66,17 @@ There is plenty of data available — but **decision makers don't need data, the
 | **Information Resources** | Process and prepare the information | How do we transform raw sources into usable form? |
 | **Information Supply** | Deliver information to those who need it | How do we make it available at the right time? |
 
+The rest of this chapter walks through each stage in order: demand elicitation (Section 3), sources and resources (Section 4), and supply (Section 5).
+
 ---
 
-## Part 3: Step 1 — Eliciting Information Demand
+## Eliciting Information Demand
 
-Three sub-steps: **identify stakeholders/personas**, **elicit people's needs** (subjective side — interviews, surveys, workshops, observation to capture explicit and latent needs), and **understand company needs**.
+Three sub-steps: **identify stakeholders and personas**, **elicit people's needs** (subjective — interviews, surveys, workshops), and **understand company needs** (objective — strategic analysis).
 
-### Approaches to Eliciting Demand (Picot, 1988)
+### Picot's Three Dimensions (Picot, 1988)
+
+Information demand emerges from the **overlap** of three dimensions:
 
 <div class="not-prose my-8 flex justify-center">
   <div class="max-w-md w-full flex flex-col items-center gap-2">
@@ -159,98 +105,94 @@ Three sub-steps: **identify stakeholders/personas**, **elicit people's needs** (
   </div>
 </div>
 
+**Information Demand** = the intersection of all three dimensions. The gaps between dimensions have specific meanings:
+
+| Gap | Meaning | Implication |
+|-----|---------|-------------|
+| Objective but **not** Subjective | The person doesn't realize they need this information | **Training gap** — awareness must be raised |
+| Subjective but **not** Objective | The person thinks they need it, but it's not task-relevant | **Noise** — creates information overload if supplied |
+| Needed (objective + subjective) but **not** Available | The information simply doesn't exist or isn't accessible | **Information gap** — requires new sources or systems |
+| Available but **not** Needed | Information exists but no one requires it | **Overload risk** — should not be pushed to users |
+
 | Approach | Method | Examples |
 |----------|--------|----------|
-| **Subjective** | Derive requirements based on personal interpretation of the task | Interviews, wishlists |
-| **Objective** | Derive requirements based on inter-subjectively validated interpretation | Strategic analysis, process analysis |
-| **Mixed** | Combine both — typically objective first, then subjective | Process analysis followed by interviews, status quo analysis |
+| **Subjective** | Derive requirements from personal interpretation of the task | Interviews, wishlists |
+| **Objective** | Derive requirements from inter-subjectively validated interpretation | Strategic analysis, process analysis |
+| **Mixed** | Combine both — typically objective first, then subjective | Process analysis followed by interviews |
 
-### 1. Stakeholders and Personas
+### Stakeholders and Personas
 
 #### Stakeholders
 
 > **Definition:** A **stakeholder** is a person or organization who influences a system's requirements or who is impacted by that system. Influence can also be indirect — e.g., stakeholders may follow instructions issued by their managers or organizations (Glinz, 2020).
 
-| Stakeholder Type | Information Focus |
-|-----------------|-------------------|
-| **Senior management** | Strategic direction, high-level KPIs |
-| **Middle management** | Departmental performance, resource allocation |
-| **Operational management** | Day-to-day operations, process efficiency |
-| **Knowledge workers** | Analysis, decision support |
-| **Data workers** | Data entry, processing, validation |
-| **Production / service workers** | Task-specific instructions, schedules |
+| Level | Stakeholder Types | Information Focus |
+|-------|------------------|-------------------|
+| **Strategic** | Senior management | Strategic direction, high-level KPIs |
+| **Tactical** | Middle management, knowledge workers | Departmental performance, analysis, resource allocation |
+| **Operational** | Operational managers, data workers, production staff | Day-to-day operations, task instructions, data entry |
 
-When identifying stakeholders, consider two categories of factors:
-
-| RE-Related Considerations | Project-Related Considerations |
-|--------------------------|-------------------------------|
-| Relevance for project success | The decision-making process |
-| Ability to commit resources | The reporting lines |
-| Ability to approve requirements | The chain of command |
-| Ability/interest to formulate requirements | Organizational structure |
-| Type of interests and underlying goals | |
-
-> **Important:** Different stakeholders view the same system from entirely different perspectives. An end user, a software vendor, a hardware vendor, and an operations manager each bring their own viewpoint. Accounting for all views is essential for complete requirements.
+> **Important:** Different stakeholders view the same system from entirely different perspectives. An end user, a software vendor, and an operations manager each bring their own viewpoint. Accounting for all views is essential for complete requirements.
 
 #### Personas
 
-**Personas** are fictional individuals representing a user group — a concrete approach for analyzing and describing system users.
+**Personas** are fictional individuals representing a user group. They are built from empirical data (interviews, analytics), then clustered and prioritized. Each persona captures demographics, goals, frustrations, and motivations — providing concrete guidance instead of designing for a vague, "elastic" user.
 
-- They provide **clear guidance** instead of designing for an "elastic" (vague) user
-- Data is collected **empirically**, then **clustered** and **prioritized**
-- Each persona captures demographics, goals, frustrations, motivations, and preferred channels
-
-### 2. Understand Company Needs — The Balanced Scorecard
+### Understanding Company Needs — The Balanced Scorecard (Kaplan & Norton, 1992)
 
 The **Balanced Scorecard** (BSC) links **firm strategy and objectives** to measurable indicators across four perspectives:
 
 <div class="not-prose my-8 flex justify-center">
-  <div class="max-w-2xl w-full flex flex-col items-center gap-1">
+  <div class="max-w-2xl w-full flex flex-col items-center gap-0">
     <!-- Financial (top) -->
-    <div style="width:50%;" class="rounded-lg border border-gray-400 dark:border-gray-500 p-3">
+    <div style="width:55%;" class="rounded-lg border border-gray-400 dark:border-gray-500 p-3">
       <div class="text-sm font-bold text-gray-800 dark:text-gray-100 text-center">Financial</div>
-      <div class="text-xs text-gray-600 dark:text-gray-400 mt-1">Cash flow · Return on investment · Financial result · Return on capital employed · Return on equity</div>
+      <div class="text-xs text-gray-600 dark:text-gray-400 mt-1">Cash flow · ROI · Return on capital employed · Return on equity</div>
     </div>
-    <!-- Arrow up -->
-    <div class="text-gray-400 dark:text-gray-500 text-lg">↑</div>
-    <!-- Middle row -->
-    <div style="display:grid; grid-template-columns:1fr auto 1fr; gap:0.5rem;" class="w-full items-center">
+    <!-- Bidirectional arrow vertical -->
+    <div class="text-gray-400 dark:text-gray-500 text-lg py-0.5">↕</div>
+    <!-- Middle row: Customers ↔ Strategy ↔ Business Processes -->
+    <div style="display:grid; grid-template-columns:1fr auto auto auto 1fr; gap:0;" class="w-full items-center">
       <div class="rounded-lg border border-gray-400 dark:border-gray-500 p-3">
         <div class="text-sm font-bold text-gray-800 dark:text-gray-100 text-center">Customers</div>
-        <div class="text-xs text-gray-600 dark:text-gray-400 mt-1">Delivery performance · Quality performance · Customer satisfaction · Customer loyalty · Customer retention</div>
+        <div class="text-xs text-gray-600 dark:text-gray-400 mt-1">Delivery performance · Quality · Satisfaction · Loyalty · Retention</div>
       </div>
-      <div class="flex flex-col items-center gap-1">
-        <div class="text-gray-400 dark:text-gray-500 text-lg">← →</div>
-        <div class="px-4 py-4 rounded-lg border-2 border-gray-300 dark:border-gray-500 text-sm font-bold text-gray-800 dark:text-gray-100 text-center" style="background:rgba(100,116,139,0.15);">Firm Strategy<br/>and Objectives</div>
-        <div class="text-gray-400 dark:text-gray-500 text-lg">← →</div>
-      </div>
+      <div class="text-gray-400 dark:text-gray-500 text-lg px-2">↔</div>
+      <div class="px-5 py-5 rounded-lg border-2 border-gray-300 dark:border-gray-500 text-sm font-bold text-gray-800 dark:text-gray-100 text-center" style="background:rgba(100,116,139,0.15);">Firm Strategy<br/>and Objectives</div>
+      <div class="text-gray-400 dark:text-gray-500 text-lg px-2">↔</div>
       <div class="rounded-lg border border-gray-400 dark:border-gray-500 p-3">
         <div class="text-sm font-bold text-gray-800 dark:text-gray-100 text-center">Business Processes</div>
-        <div class="text-xs text-gray-600 dark:text-gray-400 mt-1">Number of activities · Process execution time · Accident ratios · Resource efficiency · Equipment downtime</div>
+        <div class="text-xs text-gray-600 dark:text-gray-400 mt-1">Number of activities · Execution time · Accident ratios · Resource efficiency · Downtime</div>
       </div>
     </div>
-    <!-- Arrow down -->
-    <div class="text-gray-400 dark:text-gray-500 text-lg">↓</div>
+    <!-- Bidirectional arrow vertical -->
+    <div class="text-gray-400 dark:text-gray-500 text-lg py-0.5">↕</div>
     <!-- Learning and Growth (bottom) -->
-    <div style="width:50%;" class="rounded-lg border border-gray-400 dark:border-gray-500 p-3">
+    <div style="width:55%;" class="rounded-lg border border-gray-400 dark:border-gray-500 p-3">
       <div class="text-sm font-bold text-gray-800 dark:text-gray-100 text-center">Learning and Growth</div>
       <div class="text-xs text-gray-600 dark:text-gray-400 mt-1">Investment rate · Illness rate · Internal promotions % · Employee turnover · Gender ratios</div>
     </div>
   </div>
 </div>
 
+The arrows are **bidirectional**: strategy defines *what* to measure in each perspective, and the measurements *feed back* to validate or adjust the strategy. Each perspective translates abstract strategic goals into concrete, measurable KPIs — and those KPIs define the **information demand** for the organization's information systems.
+
 | Perspective | Guiding Question | Components |
 |-------------|-----------------|------------|
 | **Financial** | To succeed financially, how should we appear to our shareholders? | Objectives, Measures, Targets, Initiatives |
 | **Customer** | To achieve our vision, how should we appear to our customers? | Objectives, Measures, Targets, Initiatives |
-| **Internal Business Process** | To satisfy our shareholders and customers, what business processes must we excel at? | Objectives, Measures, Targets, Initiatives |
-| **Learning and Growth** | To achieve our vision, how will we sustain our ability to change and improve? | Objectives, Measures, Targets, Initiatives |
+| **Internal Business Process** | To satisfy shareholders and customers, what processes must we excel at? | Objectives, Measures, Targets, Initiatives |
+| **Learning and Growth** | How will we sustain our ability to change and improve? | Objectives, Measures, Targets, Initiatives |
 
 > **Important:** The BSC is not just a set of KPIs — it explicitly links **Vision and Strategy** to measurable outcomes across all four perspectives, ensuring that information demand is derived from actual strategic objectives rather than ad-hoc requests.
 
+**BSC → Information Demand:** Each BSC perspective generates concrete information needs. For example, a strategic objective like "improve customer retention by 10%" creates demand for churn analytics, satisfaction survey data, and support ticket trends. The BSC thus provides the **objective** side of Picot's framework — it tells us what information the organization *should* need, independent of what individuals *think* they need.
+
 ---
 
-## Part 4: Step 2 — Managing Information Sources
+## Information Sources & Resources
+
+### Source/Demand Matrix
 
 <div class="not-prose my-8 flex justify-center">
   <div class="max-w-lg w-full">
@@ -275,8 +217,7 @@ The **Balanced Scorecard** (BSC) links **firm strategy and objectives** to measu
   </div>
 </div>
 
-- **The primary IM focus** is fulfilling **internal demand** via **enterprise systems** (top-left cell)
-- **Internal info → external stakeholders** falls under public relations / investor relations
+- The **primary IM focus** is fulfilling **internal demand** via **enterprise systems** (top-left cell).
 
 ### Information Quality
 
@@ -287,13 +228,13 @@ The **Balanced Scorecard** (BSC) links **firm strategy and objectives** to measu
 | Appropriate Scope | Uniformity | Objectivity | |
 | Relevance | Unambiguity | Credibility | |
 
-> **Important:** Information quality is not just about correctness — even correct information can fail if it is not current, not accessible, or not presented in an understandable way. All four quality dimensions must be considered when managing information sources.
+> **Important:** Information quality is not just about correctness — even correct information can fail if it is not current, not accessible, or not presented in an understandable way. All four quality dimensions must be considered.
 
----
+### From Sources to Resources
 
-## Part 5: Step 3 — Managing Information Resources
+An **information source** is any origin of data (a database, a report, a person). When a source is **used recurrently** and managed for reuse, it becomes an **information resource**. The distinction matters: sources are discovered, resources are *engineered* — organized, indexed, and maintained so they can be efficiently found and reused over time.
 
-> **Definition:** Information sources that are **used recurrently** are called **information resources**. Managing these resources means organizing them so they can be efficiently found, maintained, and reused.
+### Three Approaches to Organizing Resources
 
 | Approach | Structure | Examples |
 |----------|-----------|----------|
@@ -358,78 +299,24 @@ Each label can be an **instance** (a specific individual, e.g., "Albert Einstein
   </div>
 </div>
 
-> **Important:** In a taxonomy, classes group instances hierarchically, but a single label can appear under multiple parents (e.g., "Einstein" could be under both "American physicists" and "German physicists"). The relationships are not necessarily strict trees — they can form directed acyclic graphs.
+> **Important:** In a taxonomy, classes group instances hierarchically, but a single label can appear under multiple parents (e.g., "Einstein" could be under both "American physicists" and "German physicists"). The relationships can form directed acyclic graphs, not just strict trees.
 
-### The Semantic Web
+### The Semantic Web (Tim Berners-Lee)
 
-The **Semantic Web** (Tim Berners-Lee) is the vision of a web where computers can analyze all data — content, links, and transactions — by understanding meaning, not just syntax. It represents the **graph-based** approach to managing information resources.
+The **Semantic Web** is the graph-based approach to organizing information resources — a vision of a web where machines understand *meaning*, not just syntax. Its architecture builds in layers: **URI/Unicode** provide global identifiers, **XML** provides syntax, **RDF triples** (subject–predicate–object) provide the data model, and **Ontologies** provide shared vocabularies for describing domain concepts and their relationships.
 
-<div class="not-prose my-8 flex justify-center">
-  <div class="max-w-lg w-full flex flex-col items-center gap-1">
-    <!-- Top layer -->
-    <div class="w-full py-2 rounded bg-sky-500 dark:bg-sky-600 text-xs font-semibold text-white text-center">
-      User Interface & Applications
-    </div>
-    <!-- Trust -->
-    <div style="width:85%;" class="py-1.5 rounded bg-sky-400 dark:bg-sky-700/70 text-xs font-medium text-white dark:text-sky-100 text-center">
-      Trust
-    </div>
-    <!-- Proof -->
-    <div style="width:75%;" class="py-1.5 rounded bg-sky-300 dark:bg-sky-700/50 text-xs font-medium text-sky-900 dark:text-sky-100 text-center">
-      Proof
-    </div>
-    <!-- Logic -->
-    <div style="width:65%;" class="py-1.5 rounded bg-sky-200 dark:bg-sky-800/50 text-xs font-medium text-sky-900 dark:text-sky-200 text-center">
-      Logic
-    </div>
-    <!-- Rules / Query -->
-    <div style="width:58%;" class="py-1.5 rounded bg-sky-100 dark:bg-sky-900/40 border border-sky-300 dark:border-sky-700 text-xs font-medium text-sky-800 dark:text-sky-200 text-center">
-      Rules / Query
-    </div>
-    <!-- Ontology -->
-    <div style="width:52%;" class="py-1.5 rounded bg-amber-100 dark:bg-amber-900/30 border border-amber-300 dark:border-amber-700 text-xs font-medium text-amber-800 dark:text-amber-200 text-center">
-      Ontology
-    </div>
-    <!-- RDF Model & Syntax -->
-    <div style="width:46%;" class="py-1.5 rounded bg-amber-200 dark:bg-amber-800/40 border border-amber-400 dark:border-amber-600 text-xs font-medium text-amber-900 dark:text-amber-200 text-center">
-      RDF Model & Syntax
-    </div>
-    <!-- XML Query + XML Schema -->
-    <div style="width:42%;" class="flex gap-1">
-      <div class="flex-1 py-1.5 rounded bg-green-100 dark:bg-green-900/30 border border-green-300 dark:border-green-700 text-[10px] font-medium text-green-800 dark:text-green-200 text-center">XML Query</div>
-      <div class="flex-1 py-1.5 rounded bg-green-100 dark:bg-green-900/30 border border-green-300 dark:border-green-700 text-[10px] font-medium text-green-800 dark:text-green-200 text-center">XML Schema</div>
-    </div>
-    <!-- XML + Namespaces -->
-    <div style="width:38%;" class="flex gap-1">
-      <div class="flex-1 py-1.5 rounded bg-green-200 dark:bg-green-800/40 border border-green-400 dark:border-green-600 text-[10px] font-medium text-green-900 dark:text-green-200 text-center">XML</div>
-      <div class="flex-1 py-1.5 rounded bg-green-200 dark:bg-green-800/40 border border-green-400 dark:border-green-600 text-[10px] font-medium text-green-900 dark:text-green-200 text-center">Namespaces</div>
-    </div>
-    <!-- URI/URL + Unicode -->
-    <div style="width:34%;" class="flex gap-1">
-      <div class="flex-1 py-1.5 rounded bg-gray-200 dark:bg-gray-700/60 border border-gray-300 dark:border-gray-600 text-[10px] font-medium text-gray-700 dark:text-gray-300 text-center">URI / URL</div>
-      <div class="flex-1 py-1.5 rounded bg-gray-200 dark:bg-gray-700/60 border border-gray-300 dark:border-gray-600 text-[10px] font-medium text-gray-700 dark:text-gray-300 text-center">Unicode</div>
-    </div>
-    <!-- Cross-cutting: Signature + Encryption label -->
-    <div class="mt-2 flex gap-3 justify-center">
-      <div class="px-2 py-1 rounded border border-dashed border-gray-400 dark:border-gray-500 text-[10px] text-gray-500 dark:text-gray-400 font-medium">Signature</div>
-      <div class="px-2 py-1 rounded border border-dashed border-gray-400 dark:border-gray-500 text-[10px] text-gray-500 dark:text-gray-400 font-medium">Encryption</div>
-    </div>
-    <div class="text-[10px] text-gray-400 dark:text-gray-500 mt-0.5 italic">Cross-cutting concerns</div>
-  </div>
-</div>
+For IM, the Semantic Web matters because it enables **cross-system linking** — information from different enterprise systems can be connected through shared ontologies, reducing data silos and making information resources discoverable across organizational boundaries.
 
 ---
 
-## Part 6: Step 4 — Managing Information Supply
+## Information Supply: Data Warehouse & ETL
 
 The final step is **delivering** the right information to those who need it. A key infrastructure for this is the **Data Warehouse**.
 
-### The Data Warehouse and ETL
-
-A **Data Warehouse** consolidates data from multiple operational systems into a single, query-optimized repository for analysis and reporting.
+> **Definition:** A **Data Warehouse** consolidates data from multiple operational systems into a single, query-optimized repository for analysis and reporting.
 
 <div class="not-prose my-8 overflow-x-auto">
-  <div class="min-w-[600px] flex items-center gap-4 justify-center">
+  <div style="min-width:600px;" class="flex items-center gap-4 justify-center">
     <!-- Sources -->
     <div class="flex flex-col gap-2">
       <div class="px-3 py-1.5 rounded bg-sky-100 dark:bg-sky-900/40 border border-sky-300 dark:border-sky-700 text-xs font-medium text-sky-800 dark:text-sky-200 text-center">Operational System</div>
@@ -480,13 +367,4 @@ A **Data Warehouse** consolidates data from multiple operational systems into a 
 | **Transformation** | Clean, standardize, and restructure the data | Ensure consistency and quality |
 | **Loading** | Store the processed data in the warehouse | Make it available for analysis |
 
----
-
-## Summary: The Complete Information Logistics Cycle
-
-All four steps form the continuous **Information Logistics Cycle** (Krcmar, 2015):
-
-1. **Elicit Information Demand** — Identify stakeholders, understand needs (subjective + objective), derive company requirements via the BSC
-2. **Manage Information Sources** — Map internal/external sources to internal/external demand, assess information quality
-3. **Manage Information Resources** — Organize recurrently used sources via taxonomies, keywords, or graphs (Semantic Web)
-4. **Manage Information Supply** — Deliver information via infrastructure like ETL pipelines and data warehouses
+**What happens during Transformation:** This is the most complex ETL step. It involves **data cleaning** (fixing errors, handling missing values), **deduplication** (merging duplicate records), **format standardization** (unifying date formats, units, encodings), **business rule application** (computing derived fields like profit margins), and **schema mapping** (aligning source schemas to the warehouse's target schema). Without proper transformation, the warehouse inherits the inconsistencies of its source systems.

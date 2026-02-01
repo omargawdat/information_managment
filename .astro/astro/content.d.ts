@@ -155,6 +155,27 @@ declare module 'astro:content' {
   collection: "chapters";
   data: InferEntrySchema<"chapters">
 } & { render(): Render[".md"] };
+"03-information-systems.md": {
+	id: "03-information-systems.md";
+  slug: "03-information-systems";
+  body: string;
+  collection: "chapters";
+  data: InferEntrySchema<"chapters">
+} & { render(): Render[".md"] };
+"04-information-communication-technologies.md": {
+	id: "04-information-communication-technologies.md";
+  slug: "04-information-communication-technologies";
+  body: string;
+  collection: "chapters";
+  data: InferEntrySchema<"chapters">
+} & { render(): Render[".md"] };
+"05-it-strategy.md": {
+	id: "05-it-strategy.md";
+  slug: "05-it-strategy";
+  body: string;
+  collection: "chapters";
+  data: InferEntrySchema<"chapters">
+} & { render(): Render[".md"] };
 };
 
 	};
