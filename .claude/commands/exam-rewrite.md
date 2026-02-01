@@ -25,12 +25,28 @@ The goal is the clearest, most scannable structure for exam review. Don't preser
 
 ## Diagrams
 
-Use raw HTML + Tailwind CSS diagrams directly in the `.md` file for hierarchies, trees, flows, and models. Follow the existing patterns in `01-introduction.md`.
+Use raw HTML diagrams in `.md` files. Use `02-information-economy.md` as reference for working patterns.
 
-- **When to use:** Relationships, hierarchies, layered models, flows — anywhere a visual communicates structure faster than text
-- **Avoid duplication:** If a diagram clearly conveys the information, don't repeat the same content in surrounding prose. Brief lead-in context is fine, but don't restate what the diagram already shows
-- **Style:** `not-prose` wrapper, sky/amber/green color families, `dark:` variants, SVG arrowheads, flex/grid layout
-- **Responsive:** `overflow-x-auto` with `min-w-[...]` for wide diagrams, responsive grid breakpoints for complex layouts
+- **When to use:** Hierarchies, flows, layered models — anywhere a visual communicates structure faster than text
+- **Avoid duplication:** Don't restate what the diagram already shows
+- **Colors:** Keep neutral (grays/borders). Only use color when it encodes meaning. No arbitrary color per cell.
+- **Keep simple:** Prefer vertical flows with arrow characters (↓ ↘ ↙ ↻) over SVG-heavy positioned layouts. Don't use overlapping/absolute-positioned elements.
+
+### Tailwind JIT does NOT work in `.md` files
+
+Tailwind JIT skips classes that only appear in `.md` files. **Use inline `style` for all layout properties.** Only use Tailwind classes that also exist in `.astro` files.
+
+**Always inline `style`:** `width`, `height`, `grid-template-columns`, `white-space`, `position`, `display:grid`
+
+**Safe Tailwind classes** (exist in .astro): `flex`, `flex-col`, `flex-1`, `grid`, `items-center`, `items-start`, `justify-center`, `gap-*`, `w-full`, `max-w-sm/md/lg/2xl`, `rounded-lg`, `rounded-full`, `border`, `border-2`, `text-xs`, `text-sm`, `font-medium`, `font-semibold`, `font-bold`, `italic`, `text-center`, `px-*`, `py-*`, `my-*`, `bg-*`, `text-*`, `dark:bg-*`, `dark:text-*`, `dark:border-*`, `opacity-50`, `overflow-x-auto`
+
+```html
+<!-- WRONG — grid-cols-3, w-48, whitespace-nowrap won't generate -->
+<div class="grid grid-cols-3 w-48 whitespace-nowrap">
+
+<!-- RIGHT — inline style for layout, Tailwind for colors/spacing -->
+<div class="grid" style="grid-template-columns:repeat(3,minmax(0,1fr)); width:12rem; white-space:nowrap;">
+```
 
 ## Formatting Conventions
 

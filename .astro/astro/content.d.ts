@@ -148,6 +148,13 @@ declare module 'astro:content' {
   collection: "chapters";
   data: InferEntrySchema<"chapters">
 } & { render(): Render[".md"] };
+"02-information-economy.md": {
+	id: "02-information-economy.md";
+  slug: "02-information-economy";
+  body: string;
+  collection: "chapters";
+  data: InferEntrySchema<"chapters">
+} & { render(): Render[".md"] };
 };
 
 	};
