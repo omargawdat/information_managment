@@ -23,6 +23,15 @@ The goal is the clearest, most scannable structure for exam review. Don't preser
 7. **Reorder** freely: put foundational frameworks first, then details that build on them
 8. **Merge** sections that cover the same concept from different angles into one cohesive section
 
+## Diagrams
+
+Use raw HTML + Tailwind CSS diagrams directly in the `.md` file for hierarchies, trees, flows, and models. Follow the existing patterns in `01-introduction.md`.
+
+- **When to use:** Relationships, hierarchies, layered models, flows — anywhere a visual communicates structure faster than text
+- **Avoid duplication:** If a diagram clearly conveys the information, don't repeat the same content in surrounding prose. Brief lead-in context is fine, but don't restate what the diagram already shows
+- **Style:** `not-prose` wrapper, sky/amber/green color families, `dark:` variants, SVG arrowheads, flex/grid layout
+- **Responsive:** `overflow-x-auto` with `min-w-[...]` for wide diagrams, responsive grid breakpoints for complex layouts
+
 ## Formatting Conventions
 
 | Pattern | Use For |
@@ -31,6 +40,7 @@ The goal is the clearest, most scannable structure for exam review. Don't preser
 | `> **Important:**` blockquotes | Warnings, common exam pitfalls |
 | **Bold** | Key terms on first occurrence |
 | Tables | Structured comparisons, multi-dimensional concepts, property lists |
+| HTML+Tailwind diagrams | Hierarchies, flows, layered models, tree structures |
 | `---` horizontal rules | Visual separators between major parts |
 | Numbered lists | Ordered sequences, hierarchies |
 | Bullet lists | Only when items are truly unstructured |
