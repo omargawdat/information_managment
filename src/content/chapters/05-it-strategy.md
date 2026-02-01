@@ -7,17 +7,15 @@ description: "Corporate strategy, competitive advantage (Porter, RBV, SWOT), and
 
 ## Context in the Krcmar Model
 
-IT Strategy belongs to the **Managing Information Management** layer — the overarching governance block of the Krcmar model (see Chapter 1). This layer includes IT Strategy, IT Governance, IT Processes, IT HR, IT Controlling, and IT Security. This chapter focuses on the first of these: how organizations formulate and align their IT strategy with business goals.
+IT Strategy belongs to the **Managing Information Management** layer of the Krcmar model (Ch1) — the governance block covering IT Strategy, IT Governance, IT Processes, IT HR, IT Controlling, and IT Security.
 
 ---
 
 ## The Business-IT Relationship
 
-The relationship between business and IT can be understood at two levels of complexity.
+**Simple loop:** Business defines goals for IT; IT transforms Business.
 
-**Simple loop:** Business "defines goals for" IT, and IT "transforms" Business.
-
-**Extended loop (with Business Context):** The real world is more nuanced — a third element, Business Context, shapes the competitive landscape that business operates in.
+**Extended loop:** A third element — **Business Context** (competition, market, regulation) — shapes the landscape Business operates in.
 
 <div class="not-prose my-8 flex justify-center">
   <div class="w-full max-w-2xl overflow-x-auto">
@@ -61,63 +59,47 @@ The relationship between business and IT can be understood at two levels of comp
   </div>
 </div>
 
-> **Important:** A McKinsey 2016 survey (n=709) found that most companies treat IT as a **Supplier** (a technology service provider), but most executives believe IT *should* be a **Partner** (actively collaborating to shape strategy). The gap between current and desired role is significant — IT strategy is about closing that gap.
-
-### Three Core IT Management Questions
-
-IT management is always caught between two tensions: achieving **strategic advantages through IT investments** and maintaining **short-term IT cost control**. Three core questions guide this balance:
+IT management balances **strategic advantages through IT investments** against **short-term IT cost control** via three questions:
 
 1. **Which** IT services should be provided?
-2. **Who** provides these IT services?
-3. **Are** the IT services provided correctly (efficiently and effectively)?
+2. **Who** provides them?
+3. **Are** they provided efficiently and effectively?
 
 ---
 
 ## Strategy Foundations
 
-> **Definition:** A **strategy** is a plan of action to achieve a particular goal. Short-term strategies typically cover the next 6 months; long-term strategies span 3–5 years.
+> **Definition:** A **strategy** is a plan of action to achieve a goal. Short-term = ~6 months; long-term = 3–5 years.
 
-> **Definition:** **Strategic Management** (Smith/Arnold/Bizzell, 1986) is the process of examining both present and future environments, formulating the organization's objectives, and making, implementing, and controlling decisions focused on achieving these objectives.
+> **Definition:** **Strategic Management** (Smith/Arnold/Bizzell, 1986) — the process of examining present and future environments, formulating objectives, and making, implementing, and controlling decisions to achieve them.
 
 ### Earl's Three Strategy Types (1989)
 
 | Strategy | Question | Focus |
 |----------|----------|-------|
-| **IS Strategy** | What? | Business applications of IT — aligning them with business needs and deriving strategic benefits |
-| **IT Strategy** | How? | Technology architecture, technical standards, security levels, risk attitudes, technology policies |
-| **IM Strategy** | Who? Where? | Structures and roles for managing IS and IT — specialist/user relationships, management control, performance measurement |
+| **IS Strategy** | What? | Business applications of IT — aligning with business needs |
+| **IT Strategy** | How? | Technology architecture, standards, security, policies |
+| **IM Strategy** | Who/Where? | Structures and roles for managing IS and IT |
 
-### Basic Strategy 101 — Five Simplified Steps
+### Strategy Process — Five Steps
 
 1. Identify business strategy and goals
-2. Break goals down into concrete activities and processes
-3. Identify metrics to measure progress towards these goals
-4. Identify how IT can help progress for these activities
+2. Break goals into concrete activities and processes
+3. Identify metrics to measure progress
+4. Identify how IT supports these activities
 5. Measure actual performance
 
-Steps 2–5 are supported by known tools (Balanced Scorecards, KPIs, OKRs, GQM). The hard part is **Step 1**: identifying the right business strategy.
-
-### Contents of a Concrete IT Strategy Document
-
-- Competitive analysis and forecasting
-- Mission statement, goals and basic tasks
-- Strengths and weaknesses of own ICT system and technology on the market
-- Assessment of future technology development
-- Hardware and software policy
-- Priority rules for IT projects
-- Organizational developments in the company
-- Guidelines, standards, and norms
-- Personnel development in IT
+Steps 2–5 use tools like BSC, KPIs, OKRs, GQM. The hard part is **Step 1**.
 
 ---
 
 ## Competitive Advantage: Market-Based View (MBV)
 
-The **Market-Based View** focuses on external competitive forces. The central idea: industry structure determines profitability, and strategy should position the firm advantageously within that structure.
+The **MBV** focuses on external competitive forces: industry structure determines profitability, and strategy should position the firm advantageously within it.
 
 ### Porter's Five Competitive Forces
 
-> **Definition:** Porter's Five Forces framework identifies five forces that determine the competitive intensity and attractiveness of a market.
+> **Definition:** Porter's Five Forces identifies five forces determining the competitive intensity and attractiveness of a market.
 
 <div class="not-prose my-8 flex justify-center">
   <div class="w-full max-w-2xl overflow-x-auto">
@@ -160,26 +142,24 @@ The **Market-Based View** focuses on external competitive forces. The central id
   </div>
 </div>
 
-These five forces determine how much value an industry creates and how that value is divided among competitors, new entrants, suppliers, customers, and substitute products.
-
 ### Porter's Generic Strategies
 
 | Strategy | How IS Supports It |
 |----------|-------------------|
-| **Low-cost leadership** | Use IS to produce products/services at lower price than competitors while enhancing quality and service level |
-| **Product differentiation** | Use IS to differentiate products, enable new services and products |
-| **Focus on market niche** | Use IS to enable a focused strategy on a single market niche; specialize |
-| **Customer and supplier intimacy** | Use IS to develop strong ties and loyalty with customers and suppliers |
+| **Low-cost leadership** | IS produces products/services at lower cost while maintaining quality |
+| **Product differentiation** | IS differentiates products, enables new services |
+| **Focus on market niche** | IS enables specialization on a single market segment |
+| **Customer & supplier intimacy** | IS develops strong ties and loyalty with customers and suppliers |
 
-### Porter's Strategy Matrix (2x2)
+### Porter's Strategy Matrix (2×2)
 
 <div class="not-prose my-8 flex justify-center">
   <div class="w-full max-w-lg">
     <div style="display:grid; grid-template-columns:auto 1fr 1fr; gap:0;">
       <!-- Header row -->
       <div style="padding:0.5rem;" class="text-xs text-gray-500 dark:text-gray-400"></div>
-      <div style="padding:0.75rem;" class="text-xs font-bold text-gray-700 dark:text-gray-200 text-center border border-gray-300 dark:border-gray-600" style="background:rgba(100,116,139,0.15);">Singularity<br><span class="font-normal text-[10px]">(from customer's perspective)</span></div>
-      <div style="padding:0.75rem;" class="text-xs font-bold text-gray-700 dark:text-gray-200 text-center border border-gray-300 dark:border-gray-600" style="background:rgba(100,116,139,0.15);">Cost Advantage</div>
+      <div style="padding:0.75rem;" class="text-xs font-bold text-gray-700 dark:text-gray-200 text-center border border-gray-300 dark:border-gray-600">Singularity<br><span class="font-normal text-[10px]">(from customer's perspective)</span></div>
+      <div style="padding:0.75rem;" class="text-xs font-bold text-gray-700 dark:text-gray-200 text-center border border-gray-300 dark:border-gray-600">Cost Advantage</div>
       <!-- Row 1: Industry-wide -->
       <div style="padding:0.75rem;" class="text-xs font-bold text-gray-700 dark:text-gray-200 text-center border border-gray-300 dark:border-gray-600">Industry-<br>wide</div>
       <div style="padding:1rem;" class="border border-gray-300 dark:border-gray-600 text-center">
@@ -201,40 +181,36 @@ These five forces determine how much value an industry creates and how that valu
 
 ## Competitive Advantage: Resource-Based View (RBV)
 
-The **Resource-Based View** takes the opposite perspective from MBV: success depends on **internal resources and capabilities**, not just the competitive landscape.
+The **RBV** takes the opposite perspective: success depends on **internal resources and capabilities**, not just the competitive landscape.
 
 ### Three Levels of Internal Strength
 
 | Level | Responsibility | Focus |
 |-------|---------------|-------|
 | **Vision** | C-level | Strategic direction |
-| **Capabilities** | Middle management | Ability to adapt resources and competencies to changing environments; using resources efficiently and effectively |
-| **Resources** | Product & project management | Fixed assets, human capital, money, reputation/brands, management team, technology and patents, organizational culture, organizational structure |
+| **Capabilities** | Middle management | Adapting resources to changing environments; using them efficiently |
+| **Resources** | Product & project mgmt | Fixed assets, human capital, money, reputation, technology, patents, culture, structure |
 
-### Tangible vs. Intangible Resources
-
-How to gain advantage through RBV:
-- Keep **tangible resources** (e.g. factories, hardware) up to date
-- Develop **intangible resources** (e.g. employee skills, culture, creativity), capabilities, and vision
+Gain advantage through RBV by keeping **tangible resources** (factories, hardware) up to date and developing **intangible resources** (employee skills, culture, creativity).
 
 ### VRIN Criteria
 
-Resources and capabilities must satisfy **all four** criteria for sustainable strategic advantage:
+All four criteria must be met simultaneously for sustainable strategic advantage:
 
 | Criterion | Meaning |
 |-----------|---------|
-| **V**aluable | The resource provides value to the firm |
+| **V**aluable | Provides value to the firm |
 | **R**are | Not widely available to competitors |
 | **I**nimitable | Difficult or impossible to copy |
 | **N**on-Substitutional | No equivalent substitute exists |
 
-> **Important:** All four VRIN criteria must be met simultaneously. A resource that is valuable and rare but easy to imitate will not provide a lasting competitive advantage.
+> **Important:** All four VRIN criteria must be met simultaneously. A resource that is valuable and rare but easy to imitate does not provide lasting competitive advantage.
 
 ---
 
 ## SWOT Analysis — Synthesis of MBV + RBV
 
-**SWOT** combines the external analysis of MBV with the internal analysis of RBV into a single framework.
+**SWOT** combines external analysis (MBV) with internal analysis (RBV) into one framework.
 
 <div class="not-prose my-8 flex justify-center">
   <div class="w-full max-w-lg">
@@ -262,30 +238,26 @@ Resources and capabilities must satisfy **all four** criteria for sustainable st
     </div>
     <!-- Annotation -->
     <div class="mt-3 text-[10px] text-gray-500 dark:text-gray-400 text-center">
-      Strengths &amp; Weaknesses = internal (RBV perspective) &nbsp;|&nbsp; Opportunities &amp; Threats = external (MBV perspective)
+      Strengths &amp; Weaknesses = internal (RBV) &nbsp;|&nbsp; Opportunities &amp; Threats = external (MBV)
     </div>
   </div>
 </div>
 
-> **Important:** SWOT is the bridge between the two schools of competitive strategy. Strengths and Weaknesses come from internal analysis (RBV) — what the organization is good or bad at. Opportunities and Threats come from external analysis (MBV) — what the market allows or threatens. Effective strategy addresses all four quadrants.
+> **Important:** SWOT bridges both schools. Strengths/Weaknesses come from internal analysis (RBV). Opportunities/Threats come from external analysis (MBV). Effective strategy addresses all four quadrants.
 
 ---
 
 ## Strategic Alignment
 
-The final piece: how do we ensure that business strategy and IT strategy are actually working together?
+> **Definition:** **Strategic Fit** (Porter, 1996) — Strategic fit among many activities is fundamental to competitive advantage and its sustainability. Matching an array of interlocked activities is harder than imitating a single approach.
 
-### Key Definitions
-
-> **Definition:** **Strategic Fit** (Porter, 1996) — Strategic fit among many activities is fundamental not only to competitive advantage but also to the sustainability of that advantage. It is harder for a rival to match an array of interlocked activities than to imitate a single approach.
-
-> **Definition:** **Strategic Alignment** (Reich & Benbasat, 2000) — The extent to which the business mission, objectives, and plans are supported by the IS mission, objectives, and plans.
+> **Definition:** **Strategic Alignment** (Reich & Benbasat, 2000) — The extent to which business mission, objectives, and plans are supported by IS mission, objectives, and plans.
 
 > **Definition:** **Alignment** (Henderson & Venkatraman, 1993) — The degree of fit and integration among business strategy, IT strategy, business infrastructure, and IT infrastructure.
 
 ### The Strategic Alignment Model (SAM)
 
-Henderson & Venkatraman (1993) proposed a 2x2 framework with four quadrants, organized along two dimensions: **Strategic Fit** (external strategy vs. internal infrastructure) and **Functional Integration** (business side vs. IT side).
+Henderson & Venkatraman (1993): a 2×2 framework along two dimensions — **Strategic Fit** (external strategy vs. internal infrastructure) and **Functional Integration** (business vs. IT domain).
 
 <div class="not-prose my-8 flex justify-center">
   <div class="w-full max-w-2xl overflow-x-auto">
@@ -359,10 +331,7 @@ Henderson & Venkatraman (1993) proposed a 2x2 framework with four quadrants, org
   </div>
 </div>
 
-### Two Dimensions of Alignment
-
-- **Strategic Fit:** Aligning external positioning (strategy) with internal arrangement (infrastructure and processes)
-- **Functional Integration:** Aligning the business domain with the IT domain
+**Two dimensions:** Strategic Fit (external strategy ↔ internal infrastructure) and Functional Integration (business domain ↔ IT domain).
 
 ### Four Dominant Alignment Perspectives
 
@@ -373,4 +342,4 @@ Henderson & Venkatraman (1993) proposed a 2x2 framework with four quadrants, org
 | **Competitive Potential** | I/T Strategy | Business Visionary | Catalyst | Business Leadership |
 | **Service Level** | I/T Strategy | Prioritizer | Executive Leadership | Customer Satisfaction |
 
-> **Important:** The SAM model shows that alignment is not a one-time exercise — it requires continuous attention across all four perspectives. The choice of dominant perspective determines the roles of top management and IS management, and shapes how IT performance is measured.
+> **Important:** SAM alignment is not a one-time exercise — it requires continuous attention across all four perspectives. The dominant perspective determines management roles and how IT performance is measured.
