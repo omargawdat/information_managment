@@ -1,0 +1,102 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import { getCollection } from 'astro:content';
+
+const chapters = await getCollection('chapters');
+const sortedChapters = chapters.sort((a, b) => a.data.chapter - b.data.chapter || a.data.order - b.data.order);
+
+// Group by chapter number
+const groupedChapters = sortedChapters.reduce((acc, chapter) => {
+  const chapterNum = chapter.data.chapter;
+  if (!acc[chapterNum]) {
+    acc[chapterNum] = [];
+  }
+  acc[chapterNum].push(chapter);
+  return acc;
+}, {} as Record<number, typeof chapters>);
+---
+
+<MainLayout title="Overview">
+  <div class="mb-8">
+    <h1 class="text-3xl font-bold text-gray-900 dark:text-white mb-4">
+      Information Management Study Guide
+    </h1>
+    <p class="text-lg text-gray-600 dark:text-gray-400">
+      A comprehensive study resource for exam preparation. Each chapter contains clear explanations
+      of key concepts extracted from lecture materials.
+    </p>
+  </div>
+
+  <div class="grid gap-6">
+    {Object.entries(groupedChapters).sort(([a], [b]) => Number(a) - Number(b)).map(([chapterNum, chapterGroup]) => (
+      <div class="bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 p-6 hover:shadow-lg transition-shadow">
+        <h2 class="text-xl font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
+          <span class="w-8 h-8 rounded-lg bg-primary-100 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 flex items-center justify-center text-sm font-bold">
+            {chapterNum}
+          </span>
+          Chapter {chapterNum}
+        </h2>
+        <div class="space-y-2">
+          {chapterGroup.map(chapter => (
+            <a
+              href={`/chapters/${chapter.slug}`}
+              class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors group"
+            >
+              <div class="flex items-center justify-between">
+                <span class="text-gray-700 dark:text-gray-300 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
+                  {chapter.data.title}
+                </span>
+                <svg class="w-4 h-4 text-gray-400 group-hover:text-primary-500 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+              </div>
+              {chapter.data.description && (
+                <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">
+                  {chapter.data.description}
+                </p>
+              )}
+            </a>
+          ))}
+        </div>
+      </div>
+    ))}
+  </div>
+
+  {Object.keys(groupedChapters).length === 0 && (
+    <div class="text-center py-12">
+      <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center">
+        <svg class="w-8 h-8 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+        </svg>
+      </div>
+      <h3 class="text-lg font-medium text-gray-900 dark:text-white mb-2">No chapters yet</h3>
+      <p class="text-gray-500 dark:text-gray-400">
+        Add markdown files to <code class="bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded">src/content/chapters/</code> to get started.
+      </p>
+    </div>
+  )}
+
+  <div class="mt-12 p-6 bg-gradient-to-r from-primary-50 to-primary-100 dark:from-primary-900/20 dark:to-primary-800/20 rounded-xl border border-primary-200 dark:border-primary-800">
+    <h2 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">Study Tips</h2>
+    <ul class="space-y-2 text-gray-700 dark:text-gray-300">
+      <li class="flex items-start gap-2">
+        <svg class="w-5 h-5 text-primary-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+        </svg>
+        <span>Read through each concept carefully and take notes</span>
+      </li>
+      <li class="flex items-start gap-2">
+        <svg class="w-5 h-5 text-primary-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+        </svg>
+        <span>Pay attention to the key points highlighted in each section</span>
+      </li>
+      <li class="flex items-start gap-2">
+        <svg class="w-5 h-5 text-primary-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+        </svg>
+        <span>Use the dark mode toggle for comfortable reading in low light</span>
+      </li>
+    </ul>
+  </div>
+</MainLayout>
